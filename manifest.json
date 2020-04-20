@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  
+  "name": "Hurry BB Collab",
+  "description": "Don't have time to watch the whole BB Collab at normal speed, hurry it with Hurry BB Collab!",
+  "version": "1",
+  "author": "Giulianos",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Set BB Collab playback speed",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+}
