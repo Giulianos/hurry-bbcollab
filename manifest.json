@@ -12,6 +12,14 @@
     "default_popup": "popup.html"
   },
 
+  "content_scripts": [
+    {
+      "matches": ["https://us.bbcollab.com/collab/ui/session/playback"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+
   "permissions": [
     "activeTab"
   ]
